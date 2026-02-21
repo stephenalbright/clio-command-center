@@ -1,11 +1,11 @@
 {
-  "name": "Clio Command Center",
-  "short_name": "Clio",
-  "description": "AphasiaGPT Agent Command Center - What happened while you slept?",
+  "name": "Command Center",
+  "short_name": "Command",
+  "description": "Your morning briefing — what happened and what needs you",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#0a1628",
-  "theme_color": "#3b82f6",
+  "background_color": "#1a1a2e",
+  "theme_color": "#1a1a2e",
   "orientation": "portrait-primary",
   "icons": [
     {

@@ -2,13 +2,13 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Clio Command Center",
-  description: "AphasiaGPT Agent Command Center - What happened while you slept?",
+  title: "Command Center",
+  description: "Your morning briefing — what happened and what needs you",
   manifest: "/manifest.json",
   appleWebApp: {
     capable: true,
     statusBarStyle: "black-translucent",
-    title: "Clio",
+    title: "Command",
   },
   icons: {
     icon: "/icon.svg",
@@ -21,7 +21,7 @@ export const viewport: Viewport = {
   initialScale: 1,
   maximumScale: 1,
   userScalable: false,
-  themeColor: "#0a1628",
+  themeColor: "#1a1a2e",
   viewportFit: "cover",
 };
 

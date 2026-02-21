@@ -1,14 +1,37 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
-  <rect width="512" height="512" rx="100" fill="#0a1628"/>
-  <circle cx="256" cy="256" r="150" fill="none" stroke="url(#grad)" stroke-width="24"/>
-  <circle cx="256" cy="140" r="20" fill="#3b82f6"/>
-  <circle cx="356" cy="320" r="20" fill="#8b5cf6"/>
-  <circle cx="156" cy="320" r="20" fill="#22c55e"/>
-  <path d="M256 180 L256 256 L320 300" stroke="#fff" stroke-width="12" stroke-linecap="round" fill="none"/>
+  <!-- Background with AphasiaGPT dark navy -->
+  <rect width="512" height="512" rx="128" fill="#1a1a2e"/>
+  
+  <!-- Subtle inner gradient -->
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)" opacity="0.5"/>
+  
+  <!-- Glowing command ring -->
+  <circle cx="256" cy="256" r="140" fill="none" stroke="url(#ringGrad)" stroke-width="6" opacity="0.3"/>
+  
+  <!-- Central command icon (stylized C) -->
+  <path 
+    d="M320 180 
+       Q370 210 370 256 
+       Q370 302 320 332" 
+    stroke="#4da6ff" 
+    stroke-width="32" 
+    stroke-linecap="round" 
+    fill="none"
+  />
+  
+  <!-- Three priority dots -->
+  <circle cx="180" cy="200" r="24" fill="#34d399"/>
+  <circle cx="180" cy="256" r="24" fill="#4da6ff"/>
+  <circle cx="180" cy="312" r="24" fill="#a78bfa"/>
+  
   <defs>
-    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#3b82f6"/>
-      <stop offset="100%" style="stop-color:#8b5cf6"/>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#16213e"/>
+      <stop offset="100%" stop-color="#0f3460"/>
+    </linearGradient>
+    <linearGradient id="ringGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4da6ff"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
     </linearGradient>
   </defs>
 </svg>
