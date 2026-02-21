@@ -1,0 +1,28 @@
+{
+  "name": "Clio Command Center",
+  "short_name": "Clio",
+  "description": "AphasiaGPT Agent Command Center - What happened while you slept?",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a1628",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshot.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
+  ],
+  "categories": ["productivity", "business"],
+  "prefer_related_applications": false
+}
